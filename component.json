@@ -1,0 +1,10 @@
+{
+    "name": "uready",
+    "description": "uready component",
+    "local": [],
+    "scripts": ["index.js"],
+    "main": "index.js",
+    "dependencies": {
+        "serandomps/serand": "master"
+    }
+}
