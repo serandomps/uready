@@ -9,7 +9,7 @@ serand.on('user', 'ready', function (usr) {
     if (!pending) {
         return;
     }
-    pending();
+    setTimeout(pending, 0);
 });
 
 module.exports = function (ctx, next) {
