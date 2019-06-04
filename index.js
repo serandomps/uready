@@ -4,7 +4,7 @@ var pending;
 
 var ready = false;
 
-serand.on('user', 'ready', function (usr) {
+serand.on('user', 'ready', function (token) {
     ready = true;
     if (!pending) {
         return;
