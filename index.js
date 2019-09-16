@@ -1,10 +1,10 @@
-var serand = require('serand');
+var utils = require('utils');
 
 var pending;
 
 var ready = false;
 
-serand.on('user', 'ready', function (token) {
+utils.on('user', 'ready', function (token) {
     ready = true;
     if (!pending) {
         return;
