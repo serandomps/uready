@@ -1,10 +1,11 @@
 var utils = require('utils');
+var watcher = require('watcher');
 
 var pending;
 
 var ready = false;
 
-utils.on('user', 'ready', function (token) {
+watcher.on('user', 'ready', function (token) {
     ready = true;
     if (!pending) {
         return;

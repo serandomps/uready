@@ -5,6 +5,7 @@
     "scripts": ["index.js"],
     "main": "index.js",
     "dependencies": {
-        "serandomps/utils": "master"
+        "serandomps/utils": "master",
+        "serandomps/watcher": "master"
     }
 }
